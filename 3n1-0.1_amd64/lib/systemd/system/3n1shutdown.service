@@ -1,7 +1,7 @@
 [Unit]
 Description=Shutdown 3n1 on reboot/power-off
 DefaultDependencies=no
-Before=shutdown.target
+Before=shutdown.target reboot.target
 
 [Service]
 Type=oneshot
