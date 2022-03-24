@@ -1,0 +1,12 @@
+[Unit]
+Description=Shutdown 3n1 on reboot/power-off
+DefaultDependencies=no
+Before=shutdown.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/touch /var/opt/3n1shutdown
+TimeoutStartSec=0
+
+[Install]
+WantedBy=shutdown.target

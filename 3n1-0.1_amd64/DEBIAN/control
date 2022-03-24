@@ -1,0 +1,5 @@
+Package: 3n1
+Version: 0.1
+Architecture: amd64
+Maintainer: Stanley Lancaster <lancasterharp@gmail.com>
+Description: A systemd deamon that can work on the 3n + 1 problem

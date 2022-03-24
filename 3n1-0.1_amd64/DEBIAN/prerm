@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+
+systemctl stop 3n1.service
+systemctl stop 3n1shutdown.service

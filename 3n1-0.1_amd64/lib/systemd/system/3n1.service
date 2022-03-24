@@ -1,0 +1,15 @@
+[Unit]
+Description=Work on 3n + 1
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/3n1
+ExecStop=/usr/bin/touch /var/opt/3n1shutdown
+Restart=on-failure
+AllowedCPUs=1
+MemoryMax=64M
+MemorySwapMax=64M
+
+[Install]
+WantedBy=multi-user.target
+

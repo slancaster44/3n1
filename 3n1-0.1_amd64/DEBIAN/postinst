@@ -1,0 +1,7 @@
+#!/usr/bin/bash
+
+systemctl enable 3n1
+systemctl start 3n1
+
+systemctl enable 3n1shutdown
+systemctl start 3n1shutdown
