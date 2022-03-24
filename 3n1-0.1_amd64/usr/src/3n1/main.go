@@ -122,6 +122,7 @@ func main() {
 		if shouldShutdown() {
 			break
 		}
+		fmt.Println(n, s)
 	}
 	shutdownSave(s, n)
 }
