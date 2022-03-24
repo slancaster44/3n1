@@ -1,5 +1,7 @@
 #!/usr/bin/bash
 
+systemctl daemon-reload
+
 systemctl enable 3n1
 systemctl start 3n1
 
